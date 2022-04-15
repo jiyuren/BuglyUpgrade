@@ -1,0 +1,19 @@
+def VERSION_CODE = 1
+def VERSION_NAME = "1.0.0"
+
+def build_versions = [:]
+build_versions.min_sdk = 19
+build_versions.target_sdk = 28
+build_versions.compile_sdk = 30
+build_versions.build_tools = "30.0.3"
+build_versions.versionCode = VERSION_CODE
+build_versions.versionName = VERSION_NAME
+build_versions.TINKER_ID = "myapp_${tinkerType}_${releaseTime()}_${VERSION_NAME}_${VERSION_CODE}"
+
+ext.build_versions = build_versions
+
+
+def releaseTime() {
+    String date = new Date().format("yyyyMMdd", TimeZone.getTimeZone("GMT+8"))
+    return date
+}
