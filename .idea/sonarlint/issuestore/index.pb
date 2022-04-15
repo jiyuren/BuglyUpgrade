@@ -11,8 +11,6 @@ n
 >app/src/main/java/com/jiyuren/myapp/ui/main/MainViewModel.java,8\6\862beb247b3fa7f05367bfc765d7e6e9ed7186e1
 H
 app/keep_in_main_dex.txt,1\6\16631e5be6dfb14fc1650cb4e39ae12e11f9dbaa
-X
-(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
 @
@@ -23,8 +21,6 @@ b
 2app/src/main/java/com/jiyuren/myapp/app/Const.java,d\8\d851d8a7bfa84327d2c0fa88d3977aa4fa9facfa
 b
 2app/src/main/java/com/jiyuren/myapp/app/MyApp.java,5\b\5bb00eff8c636ba16048aa40aadb6cebfec57f71
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 I
 app/tinker-support.gradle,7\f\7f5e615fe841bf9680925db3e815c26243912194
 P
@@ -35,9 +31,3 @@ m
 =app/src/main/java/com/jiyuren/myapp/ui/main/bean/Student.java,1\0\10653770d564205ec0819bbcdbc8fce839b26c62
 m
 =app/src/main/java/com/jiyuren/myapp/ui/main/MainFragment.java,5\0\50d75fc6502473a253913a317a2de82d7b94d2eb
-?
-versions.gradle,a\8\a8e804beb3174b2650db161f81257656db32888b
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
