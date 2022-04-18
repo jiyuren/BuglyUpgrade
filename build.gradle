@@ -8,13 +8,17 @@ buildscript {
         mavenCentral()
         maven { url 'https://maven.aliyun.com/repository/central'}
         maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'url "https://plugins.gradle.org/m2/"'}
         gradlePluginPortal()
     }
 
     dependencies {
         classpath "com.android.tools.build:gradle:4.2.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.31"
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30"
 //        classpath 'com.tencent.tinker:tinker-patch-gradle-plugin:1.9.14.19'
         classpath 'com.tencent.bugly:tinker-support:1.2.3'
+//        classpath "io.freefair.gradle:lombok-plugin:6.4.2"
 
     }
 
@@ -27,6 +31,7 @@ allprojects {
         mavenCentral()
         maven { url 'https://maven.aliyun.com/repository/central'}
         maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'url "https://plugins.gradle.org/m2/"'}
         gradlePluginPortal()
     }
 
